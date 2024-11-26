@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Details about Robotics Club</title>
+	<link rel="stylesheet" type="text/css" href="page2.style.css">
+</head>
+<body>
+	<div class="container3">
+		<img src="Robot Logo.png">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top"></nav>
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Registration Form</a> | <a class="navbar-brand" href="page1.html">Page 1</a> | <a class="navbar-brand" href="page2.html">Page 2</a> | <a class="navbar-brand" href="page3.html">Page 3</a>
+
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav me-auto">
+					<li>
+						<a class="navbar-brand" href="page1.html">Page 1</a>
+						<a class="navbar-brand" href="page2.html">Page 2</a>
+						<a class="navbar-brand" href="page3.html">Page 3</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<h1>Details about OBMC Robotics Club</h1>
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 4</div>
+			<img src="RoboticsImage1.png" width="100%">
+		</div>
+
+		<div class="mySlides fade" >
+			<div class="numbertext">2 / 4</div>
+			<img src="RoboticsImage2.png" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 4</div>
+			<img src="RoboticsImage3.png" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 4</div>
+			<img src="RoboticsImage4.png" style="width: 100%">
+		</div>
+		
+		<a class="prev" onclick="plusSlide (-1)">></a>
+		<a class="next" onclick="plusSlide (1)"><</a>
+	</div>
+	<br>
+
+	<div style="text-align: center;">
+		<span class="dot" onclick="currentSlide (1)"></span>
+		<span class="dot" onclick="currentSlide (2)"></span>
+		<span class="dot" onclick="currentSlide (3)"></span>
+		<span class="dot" onclick="currentSlide (4)"></span>
+	</div>
+
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+  			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  			let i;
+  			let slides= document.getElementsByClassName(".mySlides");
+  			let dots= document.getElementsByClassName(".dot");
+  			if (n> slides.length) {slideIndex= 1}    
+  			if (n< 1) {slideIndex= slides.length}
+  			for (i= 0; i < slides.length; i++) {
+    			slides[i].style.display = "none";  
+  			}
+  			for (i= 0; i < dots.length; i++) {
+    			dots[i].className= dots[i].className.replace(" active", "");
+  			}
+  			slides[slideIndex-1].style.display= "block";  
+  			dots[slideIndex-1].className+= "active";
+		}
+	</script>
+	<br>
+
+	<br>
+	
+	<br>
+	<div class="container1">
+		<h2>About the <span style="font-weight: bold; color: #00aaff;">Robotics Club</span></h2>
+		<p>This school allows students to develop construction projects with technology in this time of era. Students show most interest in learning and discovering in speaking to robots</p>
+
+		<br>
+		<h2>The purpose of Robotics Club</h2>
+		<p>Our purpose is to educated the students in coding and writing commands for the robots through play-action. We give and helped the students to showcase their interest in technology.</p>
+		
+		<br>
+		<h2>Our Robotics Clubroom</h2>
+		<p>We all the needed furniture that our students needs during our Robotics Club meeting:</p>
+		<ol type="1">
+			<ul>
+				<li><a href="https://amzn.to/3MDn2ee">Craftsman Tool Chest</a></li>
+				<li><a href="https://amzn.to/3FSTkhJ">Workbench with Outlets</a></li>
+				<li><a href="https://amzn.to/3udWEBq">Rolling Whiteboard</a></li>
+				<li><a href="https://amzn.to/3QV1A6X">Locking storage cabinet</a></li>
+				<li><a href="https://amzn.to/3QxKH0Y">Workbench Stools</a></li>
+				<li><a href="https://amzn.to/3FVC6jv">Cabinet Storage Set</a></li>
+				<li><a href="https://amzn.to/3FROEbQ">Pegboard Organizers</a></li>
+			</ul>
+		</ol>
+
+		<br>
+		<h2>Our supplies</h2>
+		<p>We have all the needed supplies for in case of borrowing. Some of these following items are also recommended for our students to join and to participate in the Robotics Club meeting</p>
+		<li>Our tools</li>
+		<ul type="sqaure">
+			<li><a href="https://amzn.to/475BBQ7">Craftsman Tool Set</a></li>
+			<li><a href="https://amzn.to/40B8e5t">Topline Tool Set</a></li>
+			<li><a href="https://amzn.to/46dpkYt">Allen Key Set</a></li>
+			<li><a href="https://amzn.to/3sE8y6W">Fluke Key Set</a></li>
+			<li><a href="https://amzn.to/3u9CgBt">Wire Strippers</a></li>
+			<li><a href="https://amzn.to/467aJxD">Wire Snips</a></li>
+			<li><a href="https://amzn.to/3QSqBjg">Leatherman</a></li>
+			<li><a href="https://amzn.to/3R4ucel">Mini Screwdrivers</a></li>
+			<li><a href="https://amzn.to/47sJsa5">DEWALT Drill Set</a></li>
+			<li><a href="https://amzn.to/3stE7Ay">Tape Measure</a></li>
+		</ul>
+
+		<li>Our machines</p>
+		<ul type="sqaure">
+			<li><a href="https://amzn.to/3Mhyn3l">Flashforge Adventure 4 Pro</a></li>
+			<li><a href="https://amzn.to/3u3Lqza">Flashforge Adventure 5M</a></li>
+			<li><a href="https://amzn.to/3u7GhGp">Creality K1 Max</a></li>
+			<li><a href="https://amzn.to/4659krz">QIDI Technology Max3</a></li>
+			<li><a href="https://amzn.to/3QSo7S0">Dremel DigilLab 3D45-01</a></li>
+			<li><a href="https://amzn.to/3ubGZlZ">Glowforge Pro</a> or <a href="https://amzn.to/3SUpst5">Glowforge Aura</a></li>
+		</ul>
+	</div>
+</body>
+</html>
