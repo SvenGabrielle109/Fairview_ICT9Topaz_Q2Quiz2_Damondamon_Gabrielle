@@ -1,0 +1,39 @@
+body{
+	font-family: Gills Sans MT;
+	color: white;
+	background-color: #1884c7;
+}
+
+.container1{
+	background-color: #84caf5;
+	width: 1000px;
+	padding: 25px;
+	margin: auto;
+	box-shadow: 25px 25px 15px rgba(0, 0, 0, 8);
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.container2{
+	background-color: #84caf5;
+	text-align: center;
+	font-size: 55px;
+	color: white;
+
+}
+
+.col-md-6 a{
+	background-color: #12537a;
+	color: white;
+}
+
+.container3{
+	background-color: #a3e0ff;
+	color: #3babe3;
+	font-family: Times New Roman;
+}
+
+img{
+	height: 40px;
+	width: 40px;
+}

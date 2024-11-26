@@ -1,0 +1,116 @@
+body{
+	background-color: #49a8e3;
+	font-family: Gills Sans MT;
+	color:white;
+}
+
+h1{
+	background-color: #1d96e0;
+	text-align: center;
+}
+
+.container3{
+	background-color: #a3e0ff;
+	color: #3babe3;
+	font-family: Times New Roman;
+}
+
+.container3 img{
+	height: 40px;
+	width: 40px;
+}
+.container1{
+	background-color: #84caf5;
+	width: 1000px;
+	padding: 25px;
+	margin: 10000;
+	box-shadow: 25px 25px 15px rgba(0, 0, 0, 8);
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+h2{
+	background-color: #1d96e0;
+	text-align: center;
+}
+
+.mySlides{
+	display: none;
+}
+
+img{
+	vertical-align: middle;
+}
+
+.slide-container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.prev, .next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6 ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext{
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+.dots{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin:  0 2px;
+	background-color: #bbbbbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6 ease;
+}
+
+.active, .dot:hover{
+	background-color: #717171;
+}
+
+.fade{
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade{
+	from{opacity: .4}
+	to{opacity: 1}
+}
+
+@media only screen and (max-width: 300px){
+	.prev, .next {font-size: 11px}
+}
+
+img{
+	height: 40px;
+	width: 40px;
+}

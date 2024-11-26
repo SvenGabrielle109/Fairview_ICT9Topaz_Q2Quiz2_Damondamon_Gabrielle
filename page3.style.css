@@ -1,0 +1,48 @@
+.container1{
+	background-color: #84caf5;
+	width: 1000px;
+	padding: 25px;
+	margin: 10000;
+	box-shadow: 25px 25px 15px rgba(0, 0, 0, 8);
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+body{
+	background-color: #49a8e3;
+	font-family: Gills Sans MT;
+	color:white;
+}
+
+strong{
+	color: black;
+}
+
+.container3{
+	background-color: #a3e0ff;
+	color: #3babe3;
+	font-family: Times New Roman;
+}
+
+p{
+	text-align: center;
+}
+
+h1{
+	background-color: #1d96e0;
+	text-align: center;
+}
+
+img{
+	height: 40px;
+	width: 40px;
+}
+
+.container1 a{
+	background-color: #7abae6;
+	font-weight: bold;
+}
+
+a{
+	color: white;
+}
